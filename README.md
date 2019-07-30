@@ -1,4 +1,4 @@
-#                                                             -- How to install Odoo 11 on Ubuntu 16.04 --
+# Installation of Odoo 11
 
 # STEP 1
 ```terminal
