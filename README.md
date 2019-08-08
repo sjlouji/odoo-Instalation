@@ -26,12 +26,14 @@ sudo apt-get install node-less
 # STEP 5
 ```terminal
 sudo apt-get install python-software-properties
-sudo vim /etc/apt/sources.list.d/pgdg.list
+sudo nano /etc/apt/sources.list.d/pgdg.list
 ```
 add a line for the repository
-```terminal
+```vim
 deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main
-~~~
+```
+Terminal
+```terminal
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install postgresql-9.6
